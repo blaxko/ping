@@ -1,0 +1,38 @@
+{
+  "name": "ping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.7.5",
+    "@supabase/supabase-js": "^2.50.2",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.3.19",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.30",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "resend": "^4.5.1",
+    "tailwind-merge": "^2.5.4",
+    "twilio": "^5.4.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.30",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@11.0.9"
+}
